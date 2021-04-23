@@ -3,11 +3,11 @@ channels:
 - conda-forge
 - pytorch
 dependencies:
-- python=3.8.2
-- pytorch=1.8.0
-- pytorch-lightning==1.0.2
+- python=3.9
+- pytorch
+- pytorch-lightning
 - pip
 - boto3
 - pip:
   - mlflow
-  - torchvision==0.9.1
+  - torchvision
